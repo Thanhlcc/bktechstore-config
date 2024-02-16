@@ -2,8 +2,8 @@ server:
   port: 80
 spring:
   r2dbc:
-    username: '{cipher}69c697edbb8b30c2081dcdd9604893dc4cd159845f3ec8710b7190bd3cc45de5%'
-    password: '{cipher}a02fad3b410680728d7cdc0c682bc45894117c6b712421c01b65c45a29dc65257cd74aafb2c5090c487eeebeeda35a70f073b4783e64d32f83abb33a54d8b4e3%'
+    username: '{cipher}53e9abf323d3ffb7793f4d49258fa4ec1ba4ec5e38929a18ae2796cebdf09217%'
+    password: '{cipher}44a0add5e61c1d24e95ea78cbb8f0d3f49c4974310a4bb40b9b71273f9e2afc8af73b37ecd829c857e915f257f24a1b8bac3fc266569fd33ea2e3914084b1174%'
     url: r2dbc:postgresql://rosie.db.elephantsql.com/${spring.r2dbc.username}
   logging:
     level: info
