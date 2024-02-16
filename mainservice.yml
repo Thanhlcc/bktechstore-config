@@ -1,0 +1,17 @@
+server:
+  port: 3000 
+logging:
+  level:
+    org.springframework.r2dbc: debug
+    web: info
+    org.slf4j: info
+spring:
+  r2dbc:
+    username: postgres
+    password: password
+    url: r2dbc:postgresql://localhost:5432/bktechstore
+  sql:
+    init:
+      mode: never
+  jackson:
+    default-property-inclusion: non_null
