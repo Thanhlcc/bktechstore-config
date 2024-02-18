@@ -1,7 +1,7 @@
 server:
   port: 8072
 eureka:
- instance:
+  instance:
    prefer-ip-address: false
   client:
     fetch-registry: true
